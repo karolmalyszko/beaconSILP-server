@@ -23,6 +23,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="beaconSILP_server.py" />
+    <Compile Include="Report.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sensor.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="server.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Step.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
